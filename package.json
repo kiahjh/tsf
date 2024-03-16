@@ -1,0 +1,14 @@
+{
+  "name": "tsf",
+  "workspaces": [
+    "packages/web/*",
+    "packages/api/*",
+    "packages/lib/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
