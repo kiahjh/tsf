@@ -1,14 +1,17 @@
 {
   "name": "tsf",
   "workspaces": [
-    "packages/web/*",
-    "packages/api/*",
-    "packages/lib/*"
+    "ts/web",
+    "ts/lib/*"
   ],
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@astrojs/solid-js": "^4.2.0",
+    "solid-js": "^1.8.17"
   }
 }
